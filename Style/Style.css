@@ -1,0 +1,126 @@
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    background-color: #f9f5ed;
+}
+
+/* body {
+    height: 100vh;
+    width: 100vw;
+    background-color: #edf1fd;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+} */
+
+nav {
+    padding: 20px 10%;
+    height: 15vh;
+    /* display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: space-around; */
+}
+
+
+/* li {
+    list-style: none;
+    cursor: pointer;
+} */
+
+/* .logo {
+    padding: 3px 0px 0px 20px;
+} */
+
+nav ul {
+    display: flex;
+    align-items: center;
+    /* gap: 30px;
+    font-weight: 500; */
+}
+
+nav ul li {
+    /* text-decoration: underline;
+    font-weight: 900; */
+    list-style: none;
+    margin-right: 5%;
+    font-weight: 600;
+}
+
+nav ul li img{
+    width: 100px;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.leftmain {
+    /* font-size: xx-large;
+    font-weight: 800; */
+    width: 40%;
+}
+
+.leftmain h1 {
+    font-size: 60px;
+}
+
+.leftmain p {
+    margin: 5%;
+}
+
+.leftmain button {
+    padding: 15px 20px;
+    font-size: 18px;
+    color: white;
+    font-weight: 600;
+    border: none;
+    background-color: #3b855b;
+    border-radius: 10px;
+}
+
+/* .rightmain {
+    width: 60%;
+    padding: 7%;
+} */
+
+.rightmain div img {
+    width: 30%;
+}
+
+.rightmain div img:first-child {
+    margin-right: 20px;
+}
+
+.rightmain div {
+    margin-bottom: 20px;
+}
+
+.rightmain > img {
+    width: 64%;
+}
+/*  
+.Main-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-left-section-btn {
+    display: flex;
+    flex-direction: row;
+}
+
+.main-right-section {
+    display: flex;
+    flex-direction: column;
+    width: 40%;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+}*/
